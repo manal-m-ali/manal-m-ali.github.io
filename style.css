@@ -1,0 +1,96 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial;
+    margin: 0px;
+    
+}
+
+h1 {
+    margin: 30px;
+    padding: 8px;
+    font-family: "Fredoka One", "Trebuchet MS";
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 12%; 
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+}
+
+
+body > header { 
+    background-color: rgb(235, 180, 80);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+    font-size: 1vw;
+}
+
+#main-content > div {
+    width: 85%;
+}
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: rgb(235, 180, 80);
+    display: flex;
+}
+
+img {
+    border-radius: 10% 
+}
+
+#footer-ul {
+  display: flex;
+  list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 20px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
